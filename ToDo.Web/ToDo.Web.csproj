@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <UserSecretsId>aspnet-ToDo.Web-11cb1fa6-9e30-40d2-a2eb-0b122b54c1dc</UserSecretsId>
   </PropertyGroup>
 
