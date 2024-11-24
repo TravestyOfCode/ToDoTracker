@@ -27,6 +27,8 @@ public class Program
 
         builder.Services.AddControllersWithViews();
 
+        builder.Services.AddMediatR(options => options.RegisterServicesFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()));
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
