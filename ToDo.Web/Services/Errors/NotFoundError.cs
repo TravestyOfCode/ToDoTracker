@@ -6,7 +6,7 @@ public class NotFoundError : HttpStatusError
     {
 
     }
-    public NotFoundError(string propertyName, string value) : base(404, $"The value {value} for {propertyName} was not found.")
+    public NotFoundError(string propertyName, object value) : base(404, $"The value {value} for {propertyName} was not found.")
     {
 
     }
